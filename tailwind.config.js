@@ -7,6 +7,9 @@ export default {
 		fontFamily: {
 			kruti: ['KrutiDev','sans-serif']
 		},
+		fontSize: {
+        	customSize: '1.7rem', // Define a custom font size if needed
+      	},
   		borderRadius: {
   			lg: 'var(--radius)',
   			md: 'calc(var(--radius) - 2px)',
