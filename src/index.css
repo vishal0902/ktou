@@ -35,7 +35,8 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
-  background-color: rgb(223, 232, 238);
+  background-color: #F0F4F8;
+  color: #3E4C59 
 }
 
 h1 {
@@ -148,5 +149,5 @@ button:focus-visible {
 
 @font-face {
   font-family: 'KrutiDev';
-  src: url('components/KRDEV016.TTF') format('truetype');
+  src: url('components/K14.ttf') format('truetype');
 }
