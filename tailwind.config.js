@@ -4,6 +4,7 @@ export default {
     content: ["./index.html", "./src/**/*.{ts,tsx,js,jsx}"],
   theme: {
   	extend: {
+		
 		fontFamily: {
 			kruti: ['KrutiDev','sans-serif']
 		},

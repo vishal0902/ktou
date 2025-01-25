@@ -4,6 +4,21 @@
 
 /* ... */
 
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #6b2193;
+  border-radius: 10px;
+  
+}
+
+::-webkit-scrollbar-track {
+    background: #9b52c3;
+    border-radius: 10px;
+}
+
 
 :root {
   font-family: Helvetica, sans-serif, Inter, system-ui, Avenir, Arial;
@@ -33,10 +48,11 @@ body {
   margin: 0;
   display: flex;
   place-items: center;
+  justify-content: center;
   min-width: 320px;
   min-height: 100vh;
-  background-color: #F0F4F8;
-  color: #3E4C59 
+  background-image: linear-gradient(rgb(201, 195, 201), rgb(155, 35, 215), rgb(201, 195, 201) );
+
 }
 
 h1 {
