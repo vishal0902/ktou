@@ -312,7 +312,7 @@ export function CardWithForm() {
 
 
   return (
-      <div className="shadow-xl grid min-w-[80vw] min-h-[25vh] md:min-h-[50vh] items-center ">
+      <div className="shadow-xl grid  min-w-[80vw] min-h-[25vh] md:min-h-[50vh] items-center ">
       
       {/* Title */}
         <div className="bg-gradient-to-r to-purple-500 from-black 100%       
@@ -340,7 +340,11 @@ export function CardWithForm() {
             </div>
             <div className="grid grid-cols-2  px-20 gap-4 py-2 bg-purple-500 border-0">
               <Button onClick={handlePaste} variant={"newButton"}>Paste</Button>
-              <Button onClick={()=>{setKrutidevText(""),setUnicodeText("")}} variant={"newButton"}>Clear</Button>
+              <Button onClick={()=>{
+                setCopyStatus(false)
+                setKrutidevText("")
+                setUnicodeText("")
+                }} variant={"newButton"}>Clear</Button>
             </div>
           </div>
           
@@ -387,7 +391,7 @@ export function CardWithForm() {
 
               </div>
             </div>
-            <div className="grid px-36 py-2 bg-purple-500 border-0">
+            <div className="grid px-16 py-2 bg-purple-500 border-0">
               <Button onClick={handleCopy} variant={"newButton"}>{copyStatus ? <span>Copied &#10004;</span>:<span>Copy</span>}</Button>
             </div>
           </div>
