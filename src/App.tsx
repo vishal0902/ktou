@@ -1,9 +1,15 @@
 // import './App.css'
-import { CardWithForm } from './ConverterWindow'
+import { CardWithForm } from "./ConverterWindow";
 
 function App() {
-
-  return (<CardWithForm />)
+  return (
+    <div className="flex justify-center">
+      <CardWithForm />
+      <div className="text-purple-200 text-sm font-bold absolute bottom-0">
+        <p>Designed and devloped by Vishal Srivastava.</p>
+      </div> 
+    </div>
+  );
 }
 
-export default App
+export default App;

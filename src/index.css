@@ -167,3 +167,8 @@ button:focus-visible {
   font-family: 'KrutiDev';
   src: url('components/K14.ttf') format('truetype');
 }
+
+@font-face {
+  font-family: 'Blank\'sScript ';
+  src: url('components/cursive_font.otf') format('opentype');
+}

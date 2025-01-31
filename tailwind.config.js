@@ -6,7 +6,8 @@ export default {
   	extend: {
 		
 		fontFamily: {
-			kruti: ['KrutiDev','sans-serif']
+			kruti: ['KrutiDev','sans-serif'],
+			cursive: ['Blank\'sScript ','sans-serif']
 		},
 		fontSize: {
         	customSize: '1.8rem', // Define a custom font size if needed

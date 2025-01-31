@@ -407,9 +407,8 @@ export function CardWithForm() {
 
         
         {/* Footer starts here */}
-        <div className="bg-gradient-to-r from-purple-500  to-black   rounded-b-md text-center text-gray-300 text-sm/5 md:text-base/5 md:p-3 p-1 ">
-          Ceated by Vishal Srivastava with lots of love.🧡 <br/>Copyright &copy; 2025.
-          All rights reserved.
+        <div className="bg-gradient-to-r from-purple-500  to-black   rounded-b-md text-center text-gray-400 text-sm md:text-base p-4 font-cursive ">
+          Copyright &copy; 2025. All rights reserved.
         </div>
       
       </div>
