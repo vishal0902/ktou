@@ -329,7 +329,7 @@ export function CardWithForm() {
           <div className="grid md:col-span-4  border border-y-0 border-purple-400">
             <div>
                 <div className="">
-                <Textarea className="font-kruti text-2xl/7 text-white  bg-purple-500"
+                <Textarea id="outputDiv" className="font-kruti text-2xl/7 text-white  bg-purple-500"
                   value={krutidevText}
                   onChange={(e: any) => {
                     setKrutidevText(e.target.value);
