@@ -51,7 +51,8 @@ body {
   justify-content: center;
   min-width: 320px;
   min-height: 100vh;
-  background-image: linear-gradient(rgb(201, 195, 201), rgb(155, 35, 215), rgb(201, 195, 201) );
+  background-image: linear-gradient(rgb(201, 195, 201), rgb(207, 142, 240), rgb(201, 195, 201) );
+  /* background: rgb(150, 27, 251); */
 
 }
 
@@ -166,6 +167,10 @@ button:focus-visible {
 @font-face {
   font-family: 'KrutiDev';
   src: url('components/K14.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'KrutiDev010';
+  src: url('components/KrutiDev010.ttf') format('truetype');
 }
 
 @font-face {

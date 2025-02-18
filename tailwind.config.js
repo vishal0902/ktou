@@ -7,6 +7,7 @@ export default {
 		
 		fontFamily: {
 			kruti: ['KrutiDev','sans-serif'],
+			kruti_010: ['KrutiDev010','sans-serif'],
 			cursive: ['Blank\'sScript ','sans-serif']
 		},
 		fontSize: {
