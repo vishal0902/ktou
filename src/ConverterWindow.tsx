@@ -46,8 +46,8 @@ export function CardWithForm() {
          rounded-t-md   text-gray-200  md:pt-5 pt-2">
           <div className="text-2xl md:text-4xl text-center mt-3">Krutidev to Unicode</div>
           
-          <div className="flex justify-between items-center">
-          <div>
+          {/* <div className="flex justify-between items-center">
+          <div> */}
           <div className="flex space-x-6 p-2 mt-2 ml-2">
             <div>
                 <input className="mr-2" defaultChecked type="radio" id="Krutidev014/016" name="fontName" value="Krutidev014/016"
@@ -60,11 +60,11 @@ export function CardWithForm() {
                 <label htmlFor="Krutidev010">Krutidev_010</label>
             </div>
           </div>
-          </div>
+          {/* </div>
           <div className="mr-52">
               <span className="hidden md:flex">Unicode</span>
           </div>
-          </div>
+          </div> */}
           
           
         </div>
