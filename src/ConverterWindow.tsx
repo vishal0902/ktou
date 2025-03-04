@@ -42,9 +42,12 @@ export function CardWithForm() {
       <div className="shadow-xl grid  min-w-[80vw] min-h-[25vh] md:min-h-[50vh] items-center ">
       
       {/* Title */}
-        <div className="bg-gradient-to-r to-gray-600 from-black 100%       
+        <div className="bg-gray-950       
          rounded-t-md   text-gray-200  md:pt-5 pt-2">
-          <div className="text-2xl md:text-4xl text-center">Krutidev to Unicode</div>
+          <div className="text-2xl md:text-4xl text-center mt-3">Krutidev to Unicode</div>
+          
+          <div className="flex justify-between items-center">
+          <div>
           <div className="flex space-x-6 p-2 mt-2 ml-2">
             <div>
                 <input className="mr-2" defaultChecked type="radio" id="Krutidev014/016" name="fontName" value="Krutidev014/016"
@@ -57,6 +60,13 @@ export function CardWithForm() {
                 <label htmlFor="Krutidev010">Krutidev_010</label>
             </div>
           </div>
+          </div>
+          <div className="mr-52">
+              <span className="hidden md:flex">Unicode</span>
+          </div>
+          </div>
+          
+          
         </div>
 
 
@@ -98,7 +108,7 @@ export function CardWithForm() {
           
 
           {/* Button & loader for conversion action */}
-          <div className="md:col-span-2 grid bg-white justify-center items-center ">            
+          <div className="md:col-span-2 grid bg-white justify-center items-center">            
            
              <Button
               variant={"outline"}
@@ -137,7 +147,7 @@ export function CardWithForm() {
 
         
         {/* Footer starts here */}
-        <div className="bg-gradient-to-r from-gray-600 to-black  rounded-b-md text-center text-gray-400 text-sm md:text-base p-4 font-cursive ">
+        <div className="bg-gray-950 rounded-b-md text-center text-gray-400 text-sm md:text-base p-4 font-cursive ">
           Copyright &copy; 2025. All rights reserved.
         </div>
       
