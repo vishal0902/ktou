@@ -1,10 +1,19 @@
+import toast from "react-hot-toast";
+
 export function convert_to_unicode(krutidevText:string, setUnicodeText:any, setCopyStatus:any) {
     
     setCopyStatus(false)
+    toast.success("Converted Successfully !!!");
+    
     var legacy_text_var = krutidevText;
     
     var array_one = new Array(
         // "(",")", 
+        "aS",
+        "kaS",
+        "as",
+        "kas",
+        "pkS",
         "kas",
         "”k","”",
         "’k","’",
@@ -42,7 +51,12 @@ export function convert_to_unicode(krutidevText:string, setUnicodeText:any, setC
 
     var array_two = new Array(
         // "¼","½", 
-       "ों",
+        "ैं",
+        "ौं",
+        "ें",
+        "ों",
+        "चौ",
+        "ों",
         "ष", "ष्",
         "श", "श्",
         "श", "श्",
@@ -280,6 +294,7 @@ export function convert_to_unicode(krutidevText:string, setUnicodeText:any, setC
 export function convert_to_unicode_010(krutidevText:string, setUnicodeText:any, setCopyStatus:any) {
     
     setCopyStatus(false)
+    toast.success("Converted Successfully !!!");
     var legacy_text_var = krutidevText;
     
     var array_one = new Array(
