@@ -46,6 +46,7 @@ a:hover {
 
 body {
   margin: 0;
+  padding: 50px;
   display: flex;
   place-items: center;
   justify-content: center;

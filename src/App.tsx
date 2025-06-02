@@ -7,7 +7,7 @@ function App() {
     <div className="flex justify-center">
       <CardWithForm />
       <Toaster
-  position="top-center"
+  position="top-right"
   reverseOrder={false}
   gutter={10}
   containerClassName=""

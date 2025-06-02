@@ -41,7 +41,7 @@ export function CardWithForm() {
 
 
   return (
-      <div className="shadow-xl grid  min-w-[80vw] min-h-[25vh] md:min-h-[50vh] items-center ">
+      <div className="shadow-2xl grid min-w-[80vw] min-h-[25vh] md:min-h-[50vh] items-center ">
       
       {/* Title */}
         <div className="bg-gray-700       
